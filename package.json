@@ -2,13 +2,22 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev --port=3000",
     "start": "next start"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
+    "date-fns": "^4.1.0",
+    "gray-matter": "^4.0.3",
     "next": "latest",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.2.1",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "sass": "^1.89.1",
+    "tailwindcss": "^4.1.8"
   },
   "engines": {
     "node": ">=18"
